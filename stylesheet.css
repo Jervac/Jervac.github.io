@@ -5,6 +5,12 @@ html {
 
 a {
 	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:active {
+	color: black;
 }
 
 h1 {
@@ -28,11 +34,6 @@ p {
 b {
 	color: #2196F3;
 	font-size: 14px;
-}
-
-#twitter {
-	color: black;
-	font-weight: bold;
 }
 
 img {
