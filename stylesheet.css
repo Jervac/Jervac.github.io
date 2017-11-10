@@ -11,6 +11,12 @@ a {
 
 a:active {
 	color: black;
+	font-weight: bold;
+}
+
+a:visited {
+	color: black;
+	font-weight: bold;
 }
 
 h1 {
