@@ -5,17 +5,17 @@ html {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #41ac6e;
 	font-weight: bold;
 }
 
 a:active {
-	color: black;
+	color: #41ac6e;
 	font-weight: bold;
 }
 
 a:visited {
-	color: black;
+	color: #41ac6e;
 	font-weight: bold;
 }
 
