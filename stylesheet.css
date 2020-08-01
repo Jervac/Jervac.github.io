@@ -1,82 +1,139 @@
-html {
-	color: #585858;
-	width: 800px;
-	text-align: left;
-	margin: auto;
+@font-face {
+  font-family: UbuntuMono;
+  src: url(Fonts/UbuntoMono-Regular.ttf);
+}
+
+html, body {
+	margin: 0 auto;
 	padding: 0;
+	background: black;
+	background: url(Images/pattern.png) repeat;
 }
 
-a {
-	text-decoration: none;
-	color: #5574db;
-	font-weight: bold;
+#header {
+	background-color: black;
+	color: #fbfbfd;
+	height: 250px;
+	text-align: center;
+	box-shadow: 0px 10px 10px -10px #000000;
 }
 
-a:active {
-	color: #5574db;
-	font-weight: bold;
+#site {
+	width: 1400px;
+	margin: 0px auto;
+	padding: 0;
+	background: #fbfbfd;
+	padding-bottom: 50px;
+	box-shadow: inset 0 10px 10px -10px #000000;
 }
 
-a:visited {
-	color: #5574db;
-	font-weight: bold;
+#imgbg {
+	background-color: black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-bottom: 5px;
+}
+
+#project {
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 400px;
+	height: 450px;
+	padding: auto;
+	background: black;
+	display: inline-block;
+	box-shadow: 0px 0px 20px #000000;
+	border-radius: 10px;
+	vertical-align: top;
+}
+
+#desc {
+	width: 370px;
+	height: 150px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background: black;
+}
+
+#bottom {
+	margin: 0 auto;
+	width: 1400px;
+	height: 50px;
+	border-bottom-radius: 5px;
+	background-color: #fbfbfd;
+	text-align: center;
+	padding-top: 25px;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	margin-top: 15px;
+	margin-left: 125px;
+	background-size: contain;
+	border-radius: 10px;
 }
 
 h1 {
-	font-size: 45px;
-	height: 30px;
-	display: block;
-}
-
-#underline {
-	border-bottom: 5px solid #585858;
+	font-size: 50px;
+	margin: 0 auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: white;
 }
 
 h2 {
+	font-size: 30px;
+	font-family: UbuntuMono;
+	text-align: center;
+	color: #fbfbfd;
+}
+
+h3 {
 	font-size: 20px;
 	font-family: Monospace;
-	display: inline;
+	color: #b0b0b0;
+	font-weight: bold;
 }
 
 p {
 	font-size: 18px;
 	font-family: Monospace;
-	padding-right: 5px;
+	color: #b0b0b0;
+	font-weight: bold;
 }
 
 p2 {
 	font-size: 18px;
 	font-family: Monospace;
-	padding-right: 5px;
+	color: #585858;
+	font-weight: bold;
+}
+
+p3 {
+	font-size: 16px;
+	font-family: Monospace;
+	color: #585858;
+	font-weight: bold;
+	text-align: center;
 }
 
 b {
 	color: #585858;
 }
 
-img {
-	width: 100px;
-	height: 100px;
-	float: left;
-	margin-right: 10px;
-	background-size: contain;
-	border: 4px solid #585858;
+a {
+	text-decoration: none;
+	color: #2f639a;
+	font-weight: bold;
 }
 
-#project {
-	height: 100px;
-	padding-top: 10px;
-	margin-bottom: 10px;
-	padding-bottom: 17px;
+a:active {
+	color: #2f639a;
+	font-weight: bold;
 }
 
-#writtings {
-	padding-top: 15px;
-	width:800px;
-	word-wrap: break-word;
-}
-
-.date {
-	
-	
+a:visited {
+	color: #2f639a;
+	font-weight: bold;
 }
